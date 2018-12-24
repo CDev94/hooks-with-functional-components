@@ -8,7 +8,7 @@ import useResources from './useResource';
 
 
 const ResourceList = ({ resource }) => {
-   
+//    reuse the resource function to display the resource to the app
    const resources = useResources(resource);
 
 return (
